@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+
+google-genai
+google-api-core
+
+flask
+flask-cors
