@@ -32,7 +32,7 @@ async function analyzeChat() {
   formData.append("file", file);
 
   try {
-    const response = await fetch("https://whatsapp-summarizer-r86e.onrender.com/analyse", {
+    const response = await fetch("https://whatsapp-summarizer-r86e.onrender.com/analyze", {
       method: "POST",
       body: formData
     });
